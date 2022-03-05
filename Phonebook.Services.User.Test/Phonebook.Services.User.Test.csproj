@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -21,11 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Services\Report\Phonebook.Services.Report\Phonebook.Services.Report.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ControllersTests\" />
+    <ProjectReference Include="..\Services\User\Phonebook.Services.User\Phonebook.Services.User.csproj" />
   </ItemGroup>
 
 </Project>
