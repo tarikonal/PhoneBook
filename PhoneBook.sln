@@ -23,9 +23,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.Report",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{05543D48-DD3D-4EC1-8099-2683742AE325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.Services.Report.Test", "Phonebook.Services.Report.Test\Phonebook.Services.Report.Test.csproj", "{BB8020C8-FE21-4404-9CCF-D815E91D4618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.Report.Test", "Phonebook.Services.Report.Test\Phonebook.Services.Report.Test.csproj", "{BB8020C8-FE21-4404-9CCF-D815E91D4618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.Services.User.Test", "Phonebook.Services.User.Test\Phonebook.Services.User.Test.csproj", "{7F9C1BCD-E830-4D6A-9878-16340C31C61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phonebook.Services.User.Test", "Phonebook.Services.User.Test\Phonebook.Services.User.Test.csproj", "{7F9C1BCD-E830-4D6A-9878-16340C31C61A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51245268-178F-4173-A250-F95C26B8FD97}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
